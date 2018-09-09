@@ -24,13 +24,13 @@ orcid_id: # your ORCID ID
 contact_note: >
   Please reach out if you have questions about my work! Email is the best way to contact me.
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-44950659-2 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: After Some Math
-blog_description: Short articles about project updates and what I'm working on now.
+blog_description: Writing helps me think clearly. This blog is an attempt to encourage myself to think clearly more often.
 
 # Pagination
 paginate: 4
