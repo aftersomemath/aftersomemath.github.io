@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: You are probably wondering why an undergrad has a teaching page.
+description: You are probably wondering why an undergraduate has a teaching page.
 ---
 
 One day, I would like to teach. This page is a reminder of that. One day it may contain course listings.
