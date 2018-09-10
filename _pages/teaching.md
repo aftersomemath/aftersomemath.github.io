@@ -5,7 +5,7 @@ title: teaching
 description: You are probably wondering why an undergrad has a teaching page.
 ---
 
-One day, I would like to teach. This page is a reminder of that and one day it might contain course listings.
+One day, I would like to teach. This page is a reminder of that. One day it may contain course listings.
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/teacher_pic.jpg">

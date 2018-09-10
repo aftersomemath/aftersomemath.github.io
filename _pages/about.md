@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Levi</strong> Burner
-description: University of Pittsburgh. <a href="pittras.org">Pitt Robotics and Automation Society</a>.
+description: University of Pittsburgh. <a href="http://pittras.org">Pitt Robotics and Automation Society</a>.
 
 profile:
   align: right
