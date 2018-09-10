@@ -14,7 +14,7 @@ One day, I would like to teach. This page is a reminder of that. One day it may 
 
 <br />
 
-I think that teaching is the most valuable thing someone can do for another professional, student, or peer. For three years of my undergrad, I was a leader in Pitt's <a href="pittras.org">Robotics and Automation Society</a>. I ran several project teams and thus had the opportunity to answer many questions and encourage a love of robotics in my peers. By encouraging others to learn, they accomplished together much more than I could have accomplished if I worked alone. Additionally, answering questions encouraged me to work harder so that I could answer questions better.
+I think that teaching is the most valuable thing someone can do for another professional, student, or peer. For three years of my undergrad, I was a leader in Pitt's <a href="pittras.org">Robotics and Automation Society</a>. I ran several project teams, and thus answered technical questions almost daily. By doing this, I encouraged a love of robotics in my peers, some have even gone on to pursue careers in robotics. Answering questions helped keep me motivated, I wanted to be better so that I could answer questions better.
 
 This experience, is why I want to teach one day.
 
