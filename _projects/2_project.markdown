@@ -1,9 +1,23 @@
 ---
 layout: page
-title: Project 2
-description: a project with a background image
-img: /assets/img/2.jpg
+title: UAV with 6 Controllable Degrees of Freedom
+# description: a project with a background image
+img16x9: /assets/img/6dof-right.gif
+redirect: /assets/pdf/6DOF_UAV.pdf
 ---
+
+<!-- # Project Dates
+# Advising Faculty: Dr. Dickerson, Dr. Dallal, Dr. Mao (Advisors for Senior Design Project)
+# Sponsoring Organization: Pitt's Robotics and Automation Society
+# Used for: Pitt RAS IARC Mission 7 6DOF UAV (never finished)
+
+# Describe the problem (include what ended up happening, youtube video)
+
+# Quick list of challenges
+
+# Project Poster
+
+# Bibliography
 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
 
@@ -52,4 +66,4 @@ The code is simple. Just add a col class to your image, and another class specif
 <div class="img_row">
     <img class="col two left" src="/img/6.jpg"/>
     <img class="col one left" src="/img/11.jpg"/>
-</div>
+</div> -->

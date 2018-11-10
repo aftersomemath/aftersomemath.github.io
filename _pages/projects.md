@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A collection of my work
 ---
 
 {% for project in site.projects %}
@@ -13,6 +13,8 @@ description: A growing collection of your cool projects.
         <a href="{{ project.redirect }}" target="_blank">
         {% if project.img %}
         <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
+        {% elsif project.img16x9 %}
+        <img class="thumbnail16x9" src="{{ project.img16x9 | prepend: site.baseurl | prepend: site.url }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
@@ -31,6 +33,8 @@ description: A growing collection of your cool projects.
         <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
         {% if project.img %}
         <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
+        {% elsif project.img16x9 %}
+        <img class="thumbnail16x9" src="{{ project.img16x9 | prepend: site.baseurl | prepend: site.url }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    

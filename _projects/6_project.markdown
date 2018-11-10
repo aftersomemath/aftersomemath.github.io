@@ -1,11 +1,19 @@
 ---
 layout: page
-title: Project 6
-description: a project with no image
-img:
+title: Agile Line Following Robot
+# description: a project with no image
+img: /assets/img/line-follower-crop.gif
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+From 2015-2016 I co-led a line follower team of 15 students with Aaron Miller to create a line follower capable of 1 m/s translation while navigating 90 degree corners.
+
+The robot incorporated a custom circuit board, custom cascaded PID control, and implemented independent velocity controllers for each of 4 wheels.
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-A3j8SwMsy0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+<!-- Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
@@ -52,4 +60,4 @@ The code is simple. Just add a col class to your image, and another class specif
 <div class="img_row">
     <img class="col two left" src="/img/6.jpg"/>
     <img class="col one left" src="/img/11.jpg"/>
-</div>
+</div> -->

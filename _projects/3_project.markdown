@@ -1,12 +1,22 @@
 ---
 layout: page
-title: Project 3
-description: a project that redirects to another website
-img:
-redirect: https://unsplash.com
+title: Optical Flow for UAV State Estimation
+img: /assets/img/optical-flow-just-flow.gif
+redirect: http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#optical-flow
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+<!-- # Project Dates
+# Advising Faculty: Dr. Dickerson
+# Advising Faculty Role: Faculty Advisor for Pitt RAS's IARC Mission 7 Team
+# Sponsoring Organization: Pitt's Robotics and Automation Society
+# Used for: 6 Degree of Freedom UAV and Pitt RAS IARC Mission 7 UAV
+
+# Header
+
+# Design Challenges -->
+
+
+<!-- Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
@@ -53,4 +63,4 @@ The code is simple. Just add a col class to your image, and another class specif
 <div class="img_row">
     <img class="col two left" src="/img/6.jpg"/>
     <img class="col one left" src="/img/11.jpg"/>
-</div>
+</div> -->
