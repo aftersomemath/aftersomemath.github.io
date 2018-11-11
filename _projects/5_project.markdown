@@ -11,7 +11,7 @@ The 1972 Magnavox Odyssey was the first home video game console. The <a href="ht
 
 I joined the project in the Fall of 2017 and have designed over 10 circuit boards that either recreate functionality or add functionality. There are only a few sub-circuits left before a fully modernized Odyssey can be realized.
 
-The most recent (and complex) addition is an extra player generation board. By adding an external circuity attatched to strategic locations within the Odyssey it is possible to add 2 additional players for a total of 4. The circuit supports collision detection, allowing for games such as four player Pong.
+The most recent (and complex) addition is an extra player generation board. By adding an external circuitry attatched to strategic locations within the Odyssey it is possible to add 2 additional players for a total of 4. The circuit supports collision detection, allowing for games such as four player Pong.
 
 I hope to update this page with more information as I have time. If you are a Pitt student interested in this please contact me or Dr. Zachary Horton. If you are an Odyssey Enthusiast interested in pcb templates or general Odyssey technical information send me an email!
 
