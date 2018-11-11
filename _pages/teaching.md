@@ -14,6 +14,6 @@ One day, I would like to teach. This page is a reminder of that.
 
 <br />
 
-I think that teaching is the most valuable thing someone can do for another professional, student, or peer. For three years of my undergrad, I was a leader in Pitt's <a href="pittras.org">Robotics and Automation Society</a>. I ran several project teams and advised leaders of other teams. Answering technical questions was a daily activity.
+I think that teaching is the most valuable investment. For three years of my undergrad, I was a leader in Pitt's <a href="pittras.org">Robotics and Automation Society</a>. I ran several project teams and advised leaders of other teams. Through this experience, I learned that time spent teaching was much more impactful than time spent working.
 
 Check out one of my strategies for encouraging success in student projects in <a href="/blog/2018/encourage-students-unstructured-problems/">this blog post</a>.

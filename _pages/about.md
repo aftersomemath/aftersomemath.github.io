@@ -25,6 +25,6 @@ My current research focuses on low-cost CubeSat mission simulation using a hardw
 
 My most significant project was being a leader of Pitt's <a href="http://www.aerialroboticscompetition.org">International Aerial Robotics Competition</a> team. The team was the top performer of Mission 7 at the American Venue two years in row. Both years, the team received the Best System Design award and in 2018, <a href="http://pittras.org/assets/misc/iarc-technical-paper-2018.pdf">Best Technical Paper</a>. Check out the <a href="http://pittras.org/projects/IARC/">project page</a> and <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html">Technical Postmortem</a>.
 
-I have completed many robotics projects and worked on or lead several successful project teams. Please check out my work on my <a href="projects/">Projects</a> page. Additionally, I have been an author of some <a href="publications/">Papers and Technical Reports</a> related to these projects.
+A overview of my publically available technical work can be found on the <a href="projects/">Projects</a> page. Additionally, some of the projects were the subject of <a href="publications/">papers or presentations</a>.
 
 Feel free to contact me through <a href="mailto:lsb27@pitt.edu">email</a> with any questions.
