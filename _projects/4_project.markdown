@@ -13,7 +13,7 @@ A peer-reviewed paper was written for *Ingenium: Undergraduate Research Undergra
 
 # Synopsis
 
-A custom embedded system was made to interface with six MPU9250 IMU's with a 1 khz update rate. A commerical Functional Electrical Stimulation Device was interfaced with the system. The system could wireless forward sensor data in real-time for processing by simulink or a ROS application.
+A custom embedded system was made to interface with six MPU9250 IMU's with a 1 khz update rate. The system included a Raspberry Pi, microcontroller, custom circuit boards, and substantial supporting software. Additionally a commerical Functional Electrical Stimulation Device was interfaced with the system. Sensor data could be forwarded through Wi-Fi in real-time for processing by simulink or a ROS application.
 
 <div class="img_row">
     <img class="col three left" src="{{ site.baseurl }}/assets/img/imu-system.png" alt="" title="IMU System Overview"/>
