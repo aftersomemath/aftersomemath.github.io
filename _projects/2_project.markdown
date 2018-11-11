@@ -1,69 +1,42 @@
 ---
 layout: page
-title: UAV with 6 Controllable Degrees of Freedom
+title: UAV with 6 Controllable Degrees of Freedom (Capstone Project)
 # description: a project with a background image
 img16x9: /assets/img/6dof-right.gif
-redirect: /assets/pdf/6DOF_UAV.pdf
 ---
 
-<!-- # Project Dates
-# Advising Faculty: Dr. Dickerson, Dr. Dallal, Dr. Mao (Advisors for Senior Design Project)
-# Sponsoring Organization: Pitt's Robotics and Automation Society
-# Used for: Pitt RAS IARC Mission 7 6DOF UAV (never finished)
+My senior capstone project was constructing a 6 degree-of-freedom UAV with Long Vo, Liam Berti, and Ritesh Misra. The project achieved autonomous flight and served as the proving grounds for the <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#dynamic-thrust-model">Time Varient, Non-linear Thrust Modeling</a> used later in the IARC project. The project won 3rd place in ECE Pitt's Swanson School of Engineering's Design Exposition in the Spring of 2018.
 
-# Describe the problem (include what ended up happening, youtube video)
+A short proposal was written justify the project based on current research. <a href="/assets/pdf/6DOF_UAV_Senior_Design_Proposal_1-12-18.pdf" target="_blank">Proposal</a>.
 
-# Quick list of challenges
+## Demonstration Video
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/potRCO5AENA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
-# Project Poster
+## Poster
+<a href="/assets/pdf/6DOF_UAV.pdf" target="_blank">Open in new tab</a>
 
-# Bibliography
+<center>
+<object data="/assets/pdf/6DOF_UAV.pdf" type="application/pdf" width="560" height="500">
+    <embed src="/assets/pdf/6DOF_UAV.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/pdf/6DOF_UAV.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+</center>
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+## Reports
+The project included two technical reports, one containing the results of the rotor modeling and the other summarizing the project.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<a href="/assets/pdf/Senior_Design_Thrust_Model_Overview.pdf" target="_blank">Early Modeling Results Report</a> (Contains measurements supportings claims, however has spelling/grammatical errors as it was written hastily in the midst of a busy project)
 
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<a href="/assets/pdf/6_Degree_of_Freedom_UAV_Final_Report.pdf" target="_blank">Final Report</a>
 
+## Findings
+The increased dynamics due to the side-rotor configuration was extreme as confirmed in manual test-flights. The increase in weight was not substantial and the side rotors were powerful enough to provide 0.3g of acceleration. This was designed to be higher, however budget constraints forced compromises in weight and battery performance.
 
-<div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    This image can also have a caption. It's like magic.
-</div>
+To fit within a limited budget, low-cost sensors were used for optical flow and height. The noise from these sensors proved too high to take full advantage of the increase in dynamics offered by the side-rotors. This is illustrated in the poster's plot of control's performance.
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+The thrust modeling technique dramatically improved performance particularly in light of the sensor noise issues. An interesting side effect was the impact of the side rotor's usage on battery voltage fluctuation. The thrust model caused sharp spikes in current consumption resulting in voltage sags. Further work was proposed to model the sag in a similar way to thrust.
 
-
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div> -->
+Overall, the project found the side rotor topology to be performant as expected and easily realizable. A <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#6-degree-of-freedom-uav">larger version was built for the IARC</a>.
