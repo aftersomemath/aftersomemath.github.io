@@ -1,55 +1,33 @@
 ---
 layout: page
-title: Texture Classification for Boundary Detection
-img16x9: /assets/img/arena-detector.gif
-redirect: http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#arena-boundary-detection
+title: Wearable Sensing System to Estimate Lower Limb State
+# description: a project with a background image
+img16x9: /assets/img/imu-system.png
+current: false
+permalink: /projects/wearable-imu-limb-angle-estimation/
 ---
 
-<!-- Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+Completed in the Summer of 2017, this project used used 6 IMU's to estimate lower limb state. The wearable system was designed to support research in using functional electrical stimulation to correct gait abnormalities such as drop foot.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+A peer-reviewed paper was written for *Ingenium: Undergraduate Research Undergraduate Research at the Swanson School of Engineering*. Citation available <a href="/publications/">here</a>.
 
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+# Synopsis
 
+A custom embedded system was made to interface with six MPU9250 IMU's with a 1 khz update rate. A commerical Functional Electrical Stimulation Device was interfaced with the system. The system could wireless forward sensor data in real-time for processing by simulink or a ROS application.
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/imu-system.png" alt="" title="IMU System Overview"/>
 </div>
 <div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Main system components
 </div>
+
+
+For a validation of the system a basic limb-angle estimation algorithm was designed using 6 instances of the popular <a href="http://x-io.co.uk/open-source-imu-and-ahrs-algorithms/">Madgwick Filter</a>. The following plot shows the results of a user taking a single (slow) step.
+
 <div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/imu-plot.png" alt="" title="Plot of the limb angles measured by the limb angle estimation system"/>
 </div>
 <div class="col three caption">
-    This image can also have a caption. It's like magic.
+    Plot of the limb angles measured by the limb angle estimation system over the course of one step
 </div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div> -->

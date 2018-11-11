@@ -1,42 +1,113 @@
 ---
 layout: page
-title: UAV with 6 Controllable Degrees of Freedom (Capstone Project)
+title: Mission 7 of the International Aerial Robotics Competition
 # description: a project with a background image
-img16x9: /assets/img/6dof-right.gif
+img16x9: /assets/img/iarc-target-crop.gif
+current: false
+permalink: /projects/iarc-mission-7/
 ---
 
-My senior capstone project was constructing a 6 degree-of-freedom UAV with Long Vo, Liam Berti, and Ritesh Misra. The project achieved autonomous flight and served as the proving grounds for the <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#dynamic-thrust-model">Time Varient, Non-linear Thrust Modeling</a> used later in the IARC project. The project won 3rd place in ECE Pitt's Swanson School of Engineering's Design Exposition in the Spring of 2018.
+I was a co-lead a core technical contributer to the Pitt's <a href="http://www.aerialroboticscompetition.org/">International Aerial Robotics Competition</a> (IARC) in 2017 and 2018. As summarized on the <a href="http://pittras.org/projects/IARC/">project page</a>. "The IARC is an annual competition requiring teams to develop aerial robots that solve problems on the cutting edge of what is currently achievable by any aerial robots, whether owned by industry or governments. Mission 7 involved developing an autonomous drone capable of interacting with randomly moving robots on the ground to direct them towards a goal".
 
-A short proposal was written justify the project based on current research. <a href="/assets/pdf/6DOF_UAV_Senior_Design_Proposal_1-12-18.pdf" target="_blank">Proposal</a>.
+Below my most substantial technical contributions are outlined. More videos and overall system details are available in the <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html">Technical Postmortem</a>.
 
-## Demonstration Video
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/potRCO5AENA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+<!--
+    ---
+layout: page
+title: Optical Flow for UAV State Estimation
+img: /assets/img/optical-flow-just-flow.gif
+redirect: http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#optical-flow
+---
+-->
 
-## Poster
-<a href="/assets/pdf/6DOF_UAV.pdf" target="_blank">Open in new tab</a>
+<!--
+---
+layout: page
+title: Texture Classification for Boundary Detection
+img16x9: /assets/img/arena-detector.gif
+redirect: http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#arena-boundary-detection
+---
+-->
 
-<center>
-<object data="/assets/pdf/6DOF_UAV.pdf" type="application/pdf" width="560" height="500">
-    <embed src="/assets/pdf/6DOF_UAV.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/pdf/6DOF_UAV.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-</center>
+<!--
+---
+layout: page
+title: 30V 240A DC Circuit Breaker Safety System for 6DOF UAV
+# description: a project with a background image
+img16x9: /assets/img/30A-eight-channel-breaker.png
+redirect: http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#6-degree-of-freedom-uav
+---
+-->
 
-## Reports
-The project included two technical reports, one containing the results of the rotor modeling and the other summarizing the project.
+<!-- ---
+layout: page
+title: Time Variant, Non-linear Rotor Thrust Modeling
+# description: a project with a background image
+img16x9: /assets/img/controller-plot.png
+redirect: http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#dynamic-thrust-model
+---
+-->
 
-<a href="/assets/pdf/Senior_Design_Thrust_Model_Overview.pdf" target="_blank">Early Modeling Results Report</a> (Contains measurements supportings claims, however has spelling/grammatical errors as it was written hastily in the midst of a busy project)
+<!-- # Project Dates
+# Advising Faculty: Dr. Mao
+# Sponsoring Organization: Pitt's Robotics and Automation Society
+# Used for: 6 Degree of Freedom UAV and Pitt RAS IARC Mission 7 UAV
 
-<a href="/assets/pdf/6_Degree_of_Freedom_UAV_Final_Report.pdf" target="_blank">Final Report</a>
+# Describe the problem (include what ended up happening)
+# Youtube video showing large drone in flight
 
-## Findings
-The increased dynamics due to the side-rotor configuration was extreme as confirmed in manual test-flights. The increase in weight was not substantial and the side rotors were powerful enough to provide 0.3g of acceleration. This was designed to be higher, however budget constraints forced compromises in weight and battery performance.
+# Describe the solution
+# Picture of thrust modeling stand
 
-To fit within a limited budget, low-cost sensors were used for optical flow and height. The noise from these sensors proved too high to take full advantage of the increase in dynamics offered by the side-rotors. This is illustrated in the poster's plot of control's performance.
+# Describe the Testing Procedure
+# Video of data collection
 
-The thrust modeling technique dramatically improved performance particularly in light of the sensor noise issues. An interesting side effect was the impact of the side rotor's usage on battery voltage fluctuation. The thrust model caused sharp spikes in current consumption resulting in voltage sags. Further work was proposed to model the sag in a similar way to thrust.
+# Describe the Data Processing
+# Show data processing pictures
 
-Overall, the project found the side rotor topology to be performant as expected and easily realizable. A <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#6-degree-of-freedom-uav">larger version was built for the IARC</a>.
+# Describe the Results
+# Show test result pictures
+
+# Conclusion -->
+
+
+<!-- Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+
+To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+
+<div class="img_row">
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
+</div>
+<div class="col three caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+<div class="img_row">
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
+</div>
+<div class="col three caption">
+    This image can also have a caption. It's like magic.
+</div>
+
+You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+
+
+<div class="img_row">
+    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
+</div>
+<div class="col three caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
+
+
+<br/><br/>
+
+
+The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
+
+<div class="img_row">
+    <img class="col two left" src="/img/6.jpg"/>
+    <img class="col one left" src="/img/11.jpg"/>
+</div> -->

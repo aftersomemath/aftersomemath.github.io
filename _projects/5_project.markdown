@@ -1,56 +1,41 @@
 ---
 layout: page
-title: 30V 240A DC Circuit Breaker Safety System for 6DOF UAV
+title: Recreation of the 1972 Magnavox Odyssey
 # description: a project with a background image
-img16x9: /assets/img/30A-eight-channel-breaker.png
-redirect: http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#6-degree-of-freedom-uav
+img16x9: /assets/img/odyssey.jpg
+current: true
+permalink: /projects/magnavox-odyssey/
 ---
 
-<!-- Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+The 1972 Magnavox Odyssey was the first home video game console. The <a href="http://vml.pitt.edu/">Vibrant Media Lab</a> under Dr. Zachary Horton is sponsoring a project to re-create the Odyssey. The project is remaining true to the original by using only discrete, through-hole circuit components.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+I joined the project in the Fall of 2017 and have designed over 10 circuit boards that either recreate functionality or add functionality. There are only a few sub-circuits left before a fully modernized Odyssey can be realized.
 
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The most recent (and complex) addition is an extra player generation board. By adding an external circuity attatched to strategic locations within the Odyssey it is possible to add 2 additional players for a total of 4. The circuit supports collision detection, allowing for games such as four player Pong.
 
+I hope to update this page with more information as I have time. If you are a Pitt student interested in this please contact me or Dr. Zachary Horton. If you are an Odyssey Enthusiast interested in pcb templates or general Odyssey technical information send me an email!
 
+## Original 1972 Odyssey Schematic
+<a href="/assets/pdf/odyssey-schematic.pdf" target="_blank">Open in new tab</a>
+<center>
+<object data="/assets/pdf/odyssey-schematic.pdf" type="application/pdf" width="560" height="400">
+    <embed src="/assets/pdf/odyssey-schematic.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/pdf/odyssey-schematic.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+</center>
+
+## Extra Player Generation Circuit
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/odyssey-extra-player-gen-brd.jpg" alt="" title="Odyssey Extra Player Generator"/>
 </div>
 <div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    This circuit adds two additional players (for a total of 4) to the Odyssey console. This has been built and is being tested.
 </div>
+
 <div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/odyssey-4-player.jpg" alt="" title="4 player Odyssey"/>
 </div>
 <div class="col three caption">
-    This image can also have a caption. It's like magic.
+    Recent testing showing 4 players and the ball. The extra-large players are the ones created by additional circuitry (they can be resized).
 </div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div> -->

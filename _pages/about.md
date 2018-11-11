@@ -17,14 +17,14 @@ news: true
 social: true
 ---
 
-I am an Electrical Engineering undergradate at the University of Pittsburgh, graduating in December of 2018. My interests are in the agressive and robust control of autonomous systems. My long-term interests are applying research in this field to space systems. I am currently looking for a Ph.D. advisor in this area.
+I am an Electrical Engineering undergradate at the University of Pittsburgh, graduating in December of 2018. My interests are in the agressive and robust control of autonomous systems. My long-term goal is to apply this research to space systems. I am currently looking for a Ph.D. advisor in this area.
 
-Small autonomous sytems, particularly flying ones, will have significant impact on the world. However, there is a significant deficit in the ability to control these systems in a robust and useful manner in unstructured environments. Solving this problem is critical to making aerial systems useful in everyday life.
+Small autonomous sytems, particularly flying ones, will have significant impact on the world. However, there is a significant deficit in the ability to control such systems in a robust and useful manner. Solving this problem is critical to making aerial systems useful in everyday life.
 
-My current research focuses on low-cost CubeSat mission simulation using a hardware-in-the-loop desktop gimbaled simulation platform. The approach allows unit, functional, and system testing to be conducted easily and repeatedly. Usage of the platform will minimize risks associated with academic CubeSat programs.
+My current research is on <a href="/projects/hitl-cubesat/">low-cost CubeSat mission simulation<a>.
 
-My most significant project was being a leader of Pitt's <a href="http://www.aerialroboticscompetition.org">International Aerial Robotics Competition</a> team. The team was the top performer of Mission 7 at the American Venue two years in row. Both years, the team received the Best System Design award and in 2018, <a href="http://pittras.org/assets/misc/iarc-technical-paper-2018.pdf">Best Technical Paper</a>. Check out the <a href="http://pittras.org/projects/IARC/">project page</a> and <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html">Technical Postmortem</a>.
+My most significant project was being a leader of Pitt's <a href="http://www.aerialroboticscompetition.org">International Aerial Robotics Competition</a> team. The team was the top performer of Mission 7 at the American Venue two years in row. Both years, the team received the Best System Design award and in 2018, <a href="http://pittras.org/assets/misc/iarc-technical-paper-2018.pdf">Best Technical Paper</a>. Check out the <a href="/projects/iarc-mission-7/">project page</a>.
 
-A overview of my publically available technical work can be found on the <a href="projects/">Projects</a> page. Additionally, some of the projects were the subject of <a href="publications/">papers or presentations</a>.
+A overview of my publically available technical work can be found on the <a href="/projects/">Projects</a> page. Additionally, some of the projects were the subject of <a href="/publications/">papers or presentations</a>.
 
 Feel free to contact me through <a href="mailto:lsb27@pitt.edu">email</a> with any questions.
