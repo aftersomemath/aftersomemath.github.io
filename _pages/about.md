@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Levi</strong> Burner
-description: University of Pittsburgh, Electrical Engineering<br/><a href="https://carnegierobotics.com/">Carnegie Robotics LLC</a>, Software Engineer<br/><a href="https://nsf-shrec.org/">NSF Center for Space High-Performance and Reconfigurable Computing</a><br/><a href="http://pittras.org">Pitt Robotics and Automation Society</a>
+description: University of Pittsburgh, Electrical Engineering<br/><a href="https://carnegierobotics.com/">Carnegie Robotics LLC</a>, Software Engineer<br/><a href="https://nsf-shrec.org/">NSF Center for Space, High-performance, and Resilient Computing</a><br/><a href="http://pittras.org">Pitt Robotics and Automation Society</a>
 
 profile:
   align: right
