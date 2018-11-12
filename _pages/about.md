@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Levi</strong> Burner
-description: University of Pittsburgh, Electrical Engineering<br/><a href="https://nsf-shrec.org/">NSF Center for Space High-Performance and Reconfigurable Computing</a><br/><a href="http://pittras.org">Pitt Robotics and Automation Society</a>
+description: University of Pittsburgh, Electrical Engineering<br/><a href="https://carnegierobotics.com/">Carnegie Robotics LLC</a>, Software Engineer<br/><a href="https://nsf-shrec.org/">NSF Center for Space High-Performance and Reconfigurable Computing</a><br/><a href="http://pittras.org">Pitt Robotics and Automation Society</a>
 
 profile:
   align: right
@@ -28,3 +28,12 @@ My most significant project was being a leader of Pitt's <a href="http://www.aer
 An overview of my work (particularly making drones hit moving targets) can be found on the <a href="/projects/">projects</a> page. Additionally, some of the projects were the subject of <a href="/publications/">papers or presentations</a>.
 
 Feel free to contact me through <a href="mailto:levi.burner@pitt.edu">email</a>.
+
+### Featured Video
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0w_acYpwZiE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<div class="col three caption">
+    IARC 2018 qualification demonstrating autonomous interaction with a moving target
+</div>

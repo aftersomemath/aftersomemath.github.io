@@ -11,7 +11,7 @@ permalink: /projects/iarc-mission-7/
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0w_acYpwZiE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <div class="col three caption">
-    IARC 2018 Qualification demonstrating interaction with a moving target by hitting the front bumper
+    IARC 2018 qualification demonstrating autonomous interaction with a moving target
 </div>
 
 I was a co-lead and core technical contributer to the Pitt's <a href="http://www.aerialroboticscompetition.org/">International Aerial Robotics Competition</a> (IARC) in 2017 and 2018. As summarized on the <a href="http://pittras.org/projects/IARC/">Pitt RAS project page</a>. "The IARC is an annual competition requiring teams to develop aerial robots that solve problems on the cutting edge of what is currently achievable by any aerial robots, whether owned by industry or governments. Mission 7 involved developing an autonomous drone capable of interacting with randomly moving robots on the ground to direct them towards a goal".
@@ -27,8 +27,16 @@ In 2017 the team had the Most Points and won Best System Design at the American 
 
 The team produced substantial software, hardware, and electronics as over 30 students contributed to create an entirely custom UAV. Many major systems including flight control, obstacle detection, and computer vision algorithms were specially designed for this mission. ROS and OpenCV were used extensively; over 10 ROS packages were created along with numerous ROS nodes.
 
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/su-1Q3NBxsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<div class="col three caption">
+    IARC 2018 footage where obstacle avoidance and remaining within arena boundaries was demonstrated
+</div>
+
 At home the team demonstrated target interaction, obstacle avoidance, navigation, and control using the custom software stack. At competition in 2018 everything except target interaction was demonstrated. Technical gremlins (primarily lighting problems) wreaked havoc on the last days of testing making it impossible to test target interaction in the final days.
 
+# Main Personal Contributions
 My work focused on controls and state estimation, however I was involved in electronics and mechanical design as well. The subsystems I focused on are listed below. For more details, the appropriate section of the <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html">Technical Postmortem</a> is linked.
 
 ## Controller and Optical Flow Plot
