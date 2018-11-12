@@ -21,10 +21,10 @@ I am an Electrical Engineering undergradate at the University of Pittsburgh, gra
 
 Small autonomous sytems, particularly flying ones, will have significant impact on the world. However, there is a significant deficit in the ability to control such systems in a robust and useful manner. Solving this problem is critical to making aerial systems useful in everyday life.
 
-My current research is on <a href="/projects/hitl-cubesat/">low-cost CubeSat mission simulation<a>.
+I am currently researching <a href="/projects/hitl-cubesat/">low-cost CubeSat mission simulation<a>.
 
-My most significant project was being a leader of Pitt's <a href="http://www.aerialroboticscompetition.org">International Aerial Robotics Competition</a> team. The team was the top performer of Mission 7 at the American Venue two years in row. Both years, the team received the Best System Design award and in 2018, <a href="http://pittras.org/assets/misc/iarc-technical-paper-2018.pdf">Best Technical Paper</a>. Check out the <a href="/projects/iarc-mission-7/">project page</a>.
+My most significant project was being a leader of Pitt's <a href="http://www.aerialroboticscompetition.org">International Aerial Robotics Competition</a> team. The team was the top performer of Mission 7 at the American Venue two years in row. Both years, the team received the Best System Design award and in 2018, <a href="http://pittras.org/assets/misc/iarc-technical-paper-2018.pdf">Best Technical Paper</a>. Check out <a href="/projects/iarc-mission-7/">this page</a> for photos and videos.
 
-A overview of my publically available technical work can be found on the <a href="/projects/">Projects</a> page. Additionally, some of the projects were the subject of <a href="/publications/">papers or presentations</a>.
+An overview of my work (particularly making drones hit moving targets) can be found on the <a href="/projects/">projects</a> page. Additionally, some of the projects were the subject of <a href="/publications/">papers or presentations</a>.
 
-Feel free to contact me through <a href="mailto:lsb27@pitt.edu">email</a> with any questions.
+Feel free to contact me through <a href="mailto:levi.burner@pitt.edu">email</a>.

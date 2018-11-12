@@ -19,7 +19,7 @@ yearsrep:    [2018]
   {% bibliography -f presentations -q @*[year={{y}}]* %}
 {% endfor %}
 
-# reports
+# technical reports
 {% for y in page.yearsrep %}
   <h3 class="year">{{y}}</h3>
   {% bibliography -f technicalreports -q @*[year={{y}}]* %}

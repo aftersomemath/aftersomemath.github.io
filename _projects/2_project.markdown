@@ -25,11 +25,11 @@ In 2017 the team had the Most Points and won Best System Design at the American 
     The 2018 Competition Drone containing a Jetson TX2, Intel NUC6i7KYK NUC, 5 Intel Realsense Cameras, 1 global shutter cameras, KDE direct propulsion system, and lots of batteries.
 </div>
 
-The project produced substantial software, hardware, and electronics as over 30 students contributed to create an entirely custom UAV. Many major systems including flight control, obstacle detection, and computer vision algorithms were specially designed for this mission. ROS and OpenCV were used extensively; over 10 ROS packages were created along with numerous ROS nodes.
+The team produced substantial software, hardware, and electronics as over 30 students contributed to create an entirely custom UAV. Many major systems including flight control, obstacle detection, and computer vision algorithms were specially designed for this mission. ROS and OpenCV were used extensively; over 10 ROS packages were created along with numerous ROS nodes.
 
-My work focused on controls and state estimation, however I was involved in electronics and mechanical design as well.
+At home the team demonstrated target interaction, obstacle avoidance, navigation, and control using the custom software stack. At competition in 2018 everything except target interaction was demonstrated. Technical gremlins (primarily lighting problems) wreaked havoc on the last days of testing making it impossible to test target interaction in the final days.
 
-The subsystems I focused on are listed below. For more details, the appropriate section of the <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html">Technical Postmortem</a> is linked.
+My work focused on controls and state estimation, however I was involved in electronics and mechanical design as well. The subsystems I focused on are listed below. For more details, the appropriate section of the <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html">Technical Postmortem</a> is linked.
 
 ## Controller and Optical Flow Plot
 <div class="img_row">
