@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Levi Burner</title>
+  <title>Levi Burner | Wearable Sensing System to Estimate Lower Limb State</title>
   <meta name="description" content="Ph.D. student in Electrical and Computer Engineering at the University of Maryland. Interested in things that fly.
 ">
 
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/projects/wearable-imu-limb-angle-estimation/">
 </head>
 
 
@@ -88,24 +88,45 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1>After Some Math</h1>
-  <h2>writing is essential to thinking clearly</h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Wearable Sensing System to Estimate Lower Limb State</h1>
+    <h5 class="post-description"></h5>
+  </header>
+
+  <article class="post-content Wearable Sensing System to Estimate Lower Limb State clearfix">
+    <p>Completed in the Summer of 2017, this project used used 6 IMU’s to estimate lower limb state. The wearable system was designed to support research in using functional electrical stimulation to correct gait abnormalities such as drop foot.</p>
+
+<p>A peer-reviewed paper was written for <em>Ingenium: Undergraduate Research Undergraduate Research at the Swanson School of Engineering</em>. Citation available <a href="/publications/">here</a>.</p>
+
+<h1 id="synopsis">Synopsis</h1>
+
+<p>A custom embedded system was made to interface with six MPU9250 IMU’s with a 1 khz update rate. The system included a Raspberry Pi, microcontroller, custom circuit boards, and substantial supporting software. Additionally a commerical Functional Electrical Stimulation Device was interfaced with the system. Sensor data could be forwarded through Wi-Fi in real-time for processing by simulink or a ROS application.</p>
+
+<div class="img_row">
+    <img class="col three left" src="/assets/img/imu-system.png" alt="" title="IMU System Overview" />
+</div>
+<div class="col three caption">
+    Main system components
 </div>
 
+<p>For a validation of the system a basic limb-angle estimation algorithm was designed using 6 instances of the popular <a href="http://x-io.co.uk/open-source-imu-and-ahrs-algorithms/">Madgwick Filter</a>. The following plot shows the results of a user taking a single (slow) step.</p>
 
-<ul class="post-list">
+<div class="img_row">
+    <img class="col three left" src="/assets/img/imu-plot.png" alt="" title="Plot of the limb angles measured by the limb angle estimation system" />
+</div>
+<div class="col three caption">
+    Plot of the limb angles measured by the limb angle estimation system over the course of one step
+</div>
+
+  </article>
+
   
-    <li>
-      <h2><a class="post-title" href="/blog/2018/encourage-students-unstructured-problems/">Encouraging Effective Learning in Difficult Student Projects</a></h2>
-      <p class="post-meta">September 9, 2018</p>
-      <p>Pitt's Robotics and Automation Society's projects often require theory that students have not learned yet. I encouraged members to build their intuition in order to solve problems.</p>
-    </li>
+
   
-</ul>
 
-
-
+</div>
 
       </div>
     </div>
