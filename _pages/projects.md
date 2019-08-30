@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A collection of my work. Click on an entry for more details.
+description: Click on an entry for more details.
 ---
 ## current
 {% for project in site.projects %}
