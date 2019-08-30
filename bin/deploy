@@ -1,4 +1,6 @@
-un this script to deploy the app to Github Pages
+#!/bin/bash
+
+#run this script to deploy the app to Github Pages
 
 # Parse cmd arguments
 
