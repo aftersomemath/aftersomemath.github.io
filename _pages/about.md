@@ -2,13 +2,13 @@
 layout: about
 permalink: /
 title: <strong>Levi</strong> Burner
-description: University of Pittsburgh, Electrical Engineering<br/><a href="https://carnegierobotics.com/">Carnegie Robotics LLC</a>, Software Engineer<br/><a href="https://nsf-shrec.org/">NSF Center for Space, High-performance, and Resilient Computing</a><br/><a href="http://pittras.org">Pitt Robotics and Automation Society</a>
+description: University of Maryland<br/>Electrical and Computer Engineering<br/>Ph.D. Student
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-  #  <p><a href="emailto:lsb27@pitt.edu">lsb27@pitt.edu</a></p>
+  #  <p><a href="lburner@umd.edu">lburner@umd.edu</a></p>
   #  <p>555 your office number</p>
   #  <p>123 your address street</p>
   #  <p>Your City, State 12345</p>
@@ -17,13 +17,13 @@ news: true
 social: true
 ---
 
-I am an Electrical Engineering undergradate at the University of Pittsburgh, graduating in December of 2018. My interests are in the agressive and robust control of autonomous systems. My long-term goal is to apply this research to space systems. I am currently looking for a Ph.D. advisor in this area.
+My research interests are in provably robust navigation of autonomous systems. In particular, I am interested in how a robots perception of the world is influenced during a manuever. By coupling this information with expected control system performance I am interested in providing quantifiable estimates of the chances of success or failure of a manuever through a cluttered environment.
 
-Small autonomous sytems, particularly flying ones, will have significant impact on the world. However, there is a significant deficit in the ability to control such systems in a robust and useful manner. Solving this problem is critical to making aerial systems useful in everyday life.
+Small autonomous sytems, particularly flying ones, will have significant impact on the world. However, there is a significant deficit in the ability to control such systems in a robust and useful manner due to inadequacies of onboard perception. Solving this problem is critical to making aerial systems useful in everyday life.
 
-I am currently researching <a href="/projects/hitl-cubesat/">low-cost CubeSat mission simulation<a>.
+Prior to beginning my studies with UMD I studied electrical engineering at the University of Pittsburgh and later worked as a software engineer at <a href="https://carnegierobotics.com/">Carnegie Robotics LLC</a>.
 
-My most significant project was being a leader of Pitt's <a href="http://www.aerialroboticscompetition.org">International Aerial Robotics Competition</a> team. The team was the top performer of Mission 7 at the American Venue two years in row. Both years, the team received the Best System Design award and in 2018, <a href="http://pittras.org/assets/misc/iarc-technical-paper-2018.pdf">Best Technical Paper</a>. Check out <a href="/projects/iarc-mission-7/">this page</a> for photos and videos.
+I was a founder and leader of Pitt's <a href="http://www.aerialroboticscompetition.org">International Aerial Robotics Competition</a> team from 2016 till 2018. The team was the top performer of Mission 7 at the American Venue two years in row. Both years, the team received the Best System Design award and in 2018, <a href="http://pittras.org/assets/misc/iarc-technical-paper-2018.pdf">Best Technical Paper</a>. Check out <a href="/projects/iarc-mission-7/">this page</a> for photos and videos.
 
 An overview of my work (particularly making drones hit moving targets) can be found on the <a href="/projects/">projects</a> page. Additionally, some of the projects were the subject of <a href="/publications/">papers or presentations</a>.
 

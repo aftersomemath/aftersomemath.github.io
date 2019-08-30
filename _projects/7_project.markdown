@@ -9,6 +9,8 @@ permalink: /projects/wifi-rover/
 
 From 2015-2016 I co-led a team of 10 students with Aaron Miller to create a robotic rover. The robot featured dual-gimbaled cameras and a web interface. The underside of the robot was covered in individually addressable RGB LED's.
 
+Both webcams were streamed via WebRTC. Additionally Raspberry Pi was used to do H264 encoding in the gpu through some gstreamer plugins.
+
 Unfortunately all video footage of the final versions of the robot (as pictured) has been lost!
 
 <div class="img_row">

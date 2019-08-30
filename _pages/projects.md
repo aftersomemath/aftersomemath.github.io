@@ -51,7 +51,7 @@ description: A collection of my work. Click on an entry for more details.
 
 {% endif %}
 {% endfor %}
-
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 ## previous
 {% for project in site.projects %}
 {% if project.current==false %}

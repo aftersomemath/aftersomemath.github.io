@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 name: Levi Burner
-email: levi.burner@pitt.edu
+email: lburner@umd.edu
 description: > # this means to ignore newlines until "url:"
-  Undergraduate Electrical Engineering Student at the University of Pittsburgh. Interested in things that fly.
+  Ph.D. student in Electrical and Computer Engineering at the University of Maryland. Interested in things that fly.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
@@ -29,7 +29,7 @@ google_analytics: UA-44950659-2 # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: After Some Math
-blog_description: Writing helps me think clearly. This blog is an attempt to encourage myself to think clearly more often.
+blog_description: writing is essential to thinking clearly
 
 # Pagination
 paginate: 4
