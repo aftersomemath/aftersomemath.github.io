@@ -7,7 +7,7 @@ description:
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/teacher_pic.jpg">
-    <center>An accurate depiction me explaining <a href="http://www.aerialroboticscompetition.org/miss.php">Mission 7</a> of the International Aerial Robotics Competition.</center>
+    <center>An accurate depiction me explaining <a href="http://www.aerialroboticscompetition.org/mission7.php">Mission 7</a> of the International Aerial Robotics Competition.</center>
 </div>
 
 <br />
