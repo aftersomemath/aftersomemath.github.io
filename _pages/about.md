@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Levi</strong> Burner
-description: University of Maryland<br/>Electrical and Computer Engineering<br/>Ph.D. Student
+description: Ph.D. Student<br/>Perception and Robotics Group<br/>Electrical and Computer Engineering<br/>University of Maryland
 
 profile:
   align: right
@@ -13,23 +13,28 @@ profile:
   #  <p>123 your address street</p>
   #  <p>Your City, State 12345</p>
 
-news: true
+news: false
 social: true
 ---
 
-My research interests are in provably robust navigation of autonomous systems. In particular, I am interested in how a robots perception of the world is influenced during a manuever. By coupling this information with expected control system performance I am interested in providing quantifiable estimates of the chances of success or failure of a manuever through a cluttered environment.
+Fast and small robots, particularly flying ones, have numerous applications. However, the state-of-the-art achieves limited robustness and agility when restricted to onboard sensing. To solve this, my research seeks bioinspired perception algorithms that can be analyzed with control theory.
 
-Small autonomous sytems, particularly flying ones, will have significant impact on the world. However, there is a significant deficit in the ability to control such systems in a robust and useful manner due to inadequacies of onboard perception. Solving this problem is critical to making aerial systems useful in everyday life.
+I work with the <a href="https://prg.cs.umd.edu/">Perception and Robotics Group</a> and am advised by <a href="https://scholar.google.com/citations?user=7QmEsOwAAAAJ">Prof. Yiannis Aloimonos</a> and <a href="https://scholar.google.com/citations?hl=en&user=0gEOJSEAAAAJ">Dr. Cornelia Fermüller</a>.
 
-Prior to beginning my studies with UMD I studied electrical engineering at the University of Pittsburgh and later worked as a software engineer at <a href="https://carnegierobotics.com/">Carnegie Robotics LLC</a>.
+Currently, I am particularly interested in:
+* Control using minimal egomotion representations
+* Non-metric representations of environment
+* Optical illusions that can be used to trick computer vision
+* Early neural mechanisms responsible for perception
+* State estimation utilizing specialized motion
 
-I was a founder and leader of Pitt's <a href="http://www.aerialroboticscompetition.org">International Aerial Robotics Competition</a> team from 2016 till 2018. The team was the top performer of Mission 7 at the American Venue two years in row. Both years, the team received the Best System Design award and in 2018, <a href="http://pittras.org/assets/misc/iarc-technical-paper-2018.pdf">Best Technical Paper</a>. Check out <a href="/projects/iarc-mission-7/">this page</a> for photos and videos.
+Prior to graduate school, I studied electrical engineering at the University of Pittsburgh. There, I led an <a href="http://pittras.org/projects/IARC/">award winning aerial robotics team<a/>. After graduating, I worked as an engineer for <a href="https://carnegierobotics.com/">Carnegie Robotics LLC</a>. These experiences made me passionate about developing robust perception for robots participating in everyday life. 
 
-An overview of my work (particularly making drones hit moving targets) can be found on the <a href="/projects/">projects</a> page. Additionally, some of the projects were the subject of <a href="/publications/">papers or presentations</a>.
+In response to COVID-19, I am working with <a href="https://ece.umd.edu/clark/faculty/366/Gilmer-L-Blankenship">Prof. Gilmer Blankenship</a> on a creative revision of <a href="https://ece.umd.edu/course-schedule/course/ENEE408I">ENEE408I: Autonomous Control of Interacting Robots</a> for Fall 2020.
 
-Feel free to contact me through <a href="mailto:levi.burner@pitt.edu">email</a>.
+The best way to contact me is through <a href="mailto:lburner@umd.edu">email</a>. I enjoy answering questions!
 
-### Featured Video
+### Latest Video
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0w_acYpwZiE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

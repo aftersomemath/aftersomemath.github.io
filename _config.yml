@@ -4,7 +4,7 @@
 name: Levi Burner
 email: lburner@umd.edu
 description: > # this means to ignore newlines until "url:"
-  Ph.D. student in Electrical and Computer Engineering at the University of Maryland. Interested in things that fly.
+  Electrical and Computer Engineering Ph.D. student with the Perception and Robotics Group at the University of Maryland.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
@@ -21,7 +21,6 @@ linkedin_username: levi-b-57230989 # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 contact_note: >
-  Please reach out if you have questions about my work! Email is the best way to contact me.
 
 google_analytics: UA-44950659-2 # out your google-analytics code
 

@@ -12,8 +12,9 @@ description:
 
 <br />
 
-I think that teaching is the most valuable investment. For three years of my undergrad, I was a leader in Pitt's <a href="http://pittras.org">Robotics and Automation Society</a>. I ran several project teams and advised other teams. Through this experience, I learned that time spent teaching was more impactful than time working.
+Teaching is the most valuable investment. For three years of undergrad, I lead project teams in Pitt's <a href="http://pittras.org">Robotics and Automation Society</a>. This experience made clear that time spent teaching can be much more impactful than time spent working. As a result, I enjoy serving as a TA.
 
 ## TA Experience
 
-* ENEE 324 - Engineering Probability - Fall 2019
+* <a href="https://ece.umd.edu/course-schedule/course/ENEE324">ENEE 324</a>  - Engineering Probability - Fall 2019
+* <a href="https://ece.umd.edu/course-schedule/course/ENEE408I">ENEE 408I<a/> - Capstone: Autonomous Control of Interacting Robots - Spring/Fall 2020

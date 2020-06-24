@@ -1,72 +1,27 @@
 ---
 layout: page
-title: Recreation of the 1972 Magnavox Odyssey
+title: Desktop Model for HITL Simulation of CubeSat Mission Objectives
 # description: a project with a background image
-img: /assets/img/odyssey-pheonix.jpg
-current: true
-permalink: /projects/magnavox-odyssey/
+img: /assets/img/hacksat-gimbal-crop.gif
+current: false
+permalink: /projects/hitl-cubesat/
 ---
 
-The <a href="https://en.wikipedia.org/wiki/Magnavox_Odyssey">1972 Magnavox Odyssey</a> was the first home video game console. The <a href="http://vml.pitt.edu/">Vibrant Media Lab</a> under Dr. Zachary Horton is sponsoring a project to re-create the Odyssey. The recreation focuses on being true to the original with equivalent circuitry but modern components that can be easily sourced 50 years later.
+This project started in August of 2018 with the goal of working towards an academic constellation of free-flying CubeSats. A gimbal mounted CubeSat model containing representations of expected hardware was designed to enable rapid software iteration and testing. Usage would help minimize risks associated with first-time academic CubeSat programs because it reduces difficutly in performing in unit, functional, and system testing of software.
 
-## Odyssey Pheonix
+The CubeSat model included a Raspberry Pi and Teensy 3.2 for simulating the interaction between a microcontroller and more powerful computer. The control board contained support for three reaction wheels with encoders and current sensing. It also featured a 9-axis IMU and temperature sensor. The system was powered via a 2 cell 1.5 Ah LiPo battery.
 
-I started working to recreate the Magnavox Odyssey during the Spring of 2018 along with Matthew Belding. By the spring of 2019 we had reversed engineered enough of the circuitry to recreate the entire Odyssey with new circuit boards and available common components. The new version, (named Odyssey Pheonix) increases the number of players from two to four, adds an expansion port for attatching additional circuitry, and provides a game card prototyping area. Pictured below, the design follows equivalent circuitry to the Magnavox Odyssey and has been tested with every game card made for the Odyssey. The design still needs to be updated with mistakes found during the first build. Eventually, the design files will be released as open source.
+Basic functionality of the hardware was achieved and interaction between the physical model and a running instance of <a href="https://software.nasa.gov/software/GSC-16720-1">42</a> (an open-source general purpose flight software developed at NASA) was demonstrated. The hastily designed gimbal proved too resistant and quickly caused saturation of the reaction wheels. Future work looks to move the model into a sphere that can float in a small pool of water.
 
-<div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/odyssey-pheonix-demo.gif" alt="" title="CubeSat gimbal"/>
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/odyssey-pheonix.jpg" alt="" title="CubeSat model mounted in gimbal"/>
-</div>
-<div class="col three caption">
-	(Left) Odyssey Pheonix being used with original controllers and original game card<br/>
-	(Right) Odyssey Pheonix fully assembled, this was the first version and had to be significantally reworked<br/>
-</div>
-
-## Daughter Card Recreation
-
-Additionally, I recreated all 10 original daughter cards used by the original Odyssey. These new cards can be used to replace broken cards in original Odysseys.
+This project was part of a collaboration with Christopher Manderino, a student working under Dr. Alan George at the <a href="https://nsf-shrec.org/">NSF Center for Space High-Performance and Reconfigurable Computing</a>.
 
 <div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/odyssey-replaced-daughter-cards.jpg" alt="" title="Odyssey Daughter Cards Replaced"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/hacksat-gimbal-crop.gif" alt="" title="CubeSat gimbal"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/hacksat-in-gimbal.jpg" alt="" title="CubeSat model mounted in gimbal"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/hacksat-render1.jpg" alt="" title="CubeSat model without frame"/>
 </div>
 <div class="col three caption">
-    An original Odyssey with all the daughter cards replaced with the recreations.
+	(Left) Early prototype gimbal to hold the CubeSat model<br/>
+	(Center) Model CubeSat replica to be mounted in the gimbal<br/>
+	(Right) Model CubeSat with frame removed to show custom electronics hardware.
 </div>
-
-## Extra Player Generation Circuit
-
-I also developed the circuitry for to add two additional players to an original Magnavox Odyssey, for a total of four. The additional player 3 and 4 behave as if they are players 1 and 2 as far as any game logic is concerned.
-
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/odyssey-extra-player-gen-brd.jpg" alt="" title="Odyssey Extra Player Generator"/>
-</div>
-<div class="col three caption">
-    This circuit adds two additional players (for a total of 4) to the Odyssey console. This has been built and tested.
-</div>
-
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/odyssey-extra-player-brd-installed.jpg" alt="" title="Odyssey Extra Player Generator Board Installed"/>
-</div>
-<div class="col three caption">
-    The extra player board installed in an Odyssey. This Odyssey includes other experimental functionality such as an Arduino Mega with a custom shield for sound effects in  the battery compartment.
-</div>
-
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/odyssey-4-player.jpg" alt="" title="4 player Odyssey"/>
-</div>
-<div class="col three caption">
-    Recent testing showing 4 players and the ball. The extra-large players are the ones created by additional circuitry (they can be resized).
-</div>
-
-## Original 1972 Odyssey Schematic
-<a href="/assets/pdf/odyssey-schematic.pdf" target="_blank">Open in new tab</a>
-<center>
-<object data="/assets/pdf/odyssey-schematic.pdf" type="application/pdf" width="560" height="400">
-    <embed src="/assets/pdf/odyssey-schematic.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/pdf/odyssey-schematic.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-</center>
-
-<br/>
-I will update this page with more information as I have time. If you are a Pitt student interested in this please contact me or Dr. Zachary Horton. If you are an Odyssey Enthusiast interested in pcb templates or general Odyssey technical information send me an email!

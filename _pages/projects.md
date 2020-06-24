@@ -5,6 +5,7 @@ permalink: /projects/
 description: Click on an entry for more details.
 ---
 ## current
+#### (6/23/20) Expect pages for graduate work by the end of summer
 {% for project in site.projects %}
 {% if project.current %}
 
