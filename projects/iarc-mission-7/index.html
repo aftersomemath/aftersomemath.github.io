@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Levi Burner | Mission 7 of the International Aerial Robotics Competition</title>
+  <meta name="description" content="Electrical and Computer Engineering Ph.D. student with the Perception and Robotics Group at the University of Maryland.
+">
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/projects/iarc-mission-7/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <a href="/"><strong>Levi</strong> Burner</a>
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">about</a>
+
+        <!-- Pages -->
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="/projects/">projects</a>
+          
+        
+          
+            <a class="page-link" href="/publications/">publications</a>
+          
+        
+          
+            <a class="page-link" href="/teaching/">teaching</a>
+          
+        
+          
+        
+
+        <!-- Blog -->
+        <a class="page-link" href="/blog/">blog</a>
+
+        <!-- CV link -->
+        <a class="page-link" href="/assets/pdf/LeviBurnerCV.pdf" target="_blank">CV</a>
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Mission 7 of the International Aerial Robotics Competition</h1>
+    <h5 class="post-description"></h5>
+  </header>
+
+  <article class="post-content Mission 7 of the International Aerial Robotics Competition clearfix">
+    <center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0w_acYpwZiE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</center>
+<div class="col three caption">
+    IARC 2018 qualification demonstrating autonomous interaction with a moving target
+</div>
+
+<p>I was a co-lead and core technical contributer to the Pitt’s <a href="http://www.aerialroboticscompetition.org/">International Aerial Robotics Competition</a> (IARC) in 2017 and 2018. As summarized on the <a href="http://pittras.org/projects/IARC/">Pitt RAS project page</a>. “The IARC is an annual competition requiring teams to develop aerial robots that solve problems on the cutting edge of what is currently achievable by any aerial robots, whether owned by industry or governments. Mission 7 involved developing an autonomous drone capable of interacting with randomly moving robots on the ground to direct them towards a goal”.</p>
+
+<p>In 2017 the team had the Most Points and won Best System Design at the American Venue. In 2018, the team repeated these succeses and also received the Best Technical Paper award. <a href="http://www.aerialroboticscompetition.org/mission7.php">Mission 7</a> was completed by Zhejiang University in 2018 at the Asian-Pacific venue.</p>
+
+<div class="img_row">
+    <img class="col three left" src="/assets/img/drone-image.jpg" alt="" title="IMU System Overview" />
+</div>
+<div class="col three caption">
+    The 2018 Competition Drone containing a Jetson TX2, Intel NUC6i7KYK NUC, 5 Intel Realsense Cameras, 1 global shutter cameras, KDE direct propulsion system, and lots of batteries.
+</div>
+
+<p>The team produced substantial software, hardware, and electronics as over 30 students contributed to create an entirely custom UAV. Many major systems including flight control, obstacle detection, and computer vision algorithms were specially designed for this mission. ROS and OpenCV were used extensively; over 10 ROS packages were created along with numerous ROS nodes.</p>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/su-1Q3NBxsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</center>
+<div class="col three caption">
+    IARC 2018 footage where obstacle avoidance and remaining within arena boundaries was demonstrated
+</div>
+
+<p>At home the team demonstrated target interaction, obstacle avoidance, navigation, and control using the custom software stack. At competition in 2018 everything except target interaction was demonstrated. Technical gremlins (primarily lighting problems) wreaked havoc on the last days of testing making it impossible to test target interaction in the final days.</p>
+
+<h1 id="main-personal-contributions">Main Personal Contributions</h1>
+<p>My work focused on controls and state estimation, however I was involved in electronics and mechanical design as well. The subsystems I focused on are listed below. For more details, the appropriate section of the <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html">Technical Postmortem</a> is linked.</p>
+
+<h2 id="controller-and-optical-flow-plot">Controller and Optical Flow Plot</h2>
+<div class="img_row">
+    <a href="/assets/img/iarc-controller.png" target="_blank">
+    <img class="col three left" src="/assets/img/iarc-controller.png" alt="" title="IARC Controller and Flow Performance" />
+    </a>
+</div>
+<div class="col three caption">
+    Click on the image to enlarge<br />
+    Graph showing controller and flow estimation performance when flying a 2 meter square formation<br />
+    Legend is at the top right, the X axis is in seconds, Y axis is in meters, meters/sec, or meters/sec^2 as appropriate<br />
+</div>
+
+<p>The overall performance of the control and estimation systems described below are shown in the above figure. It depicts achivement of X and Y position and velocity targets, estimates of velocity and position from the kalman filter, and raw estimates of flow coming from the optical flow estimator.</p>
+
+<h2 id="controls">Controls</h2>
+<h3 id="time-variant-non-linear-rotor-thrust-modeling">Time Variant, Non-linear Rotor Thrust Modeling</h3>
+<div class="img_row">
+    <img class="col three left" src="/assets/img/controller-plot.png" alt="" title="Thrust Model Visualized" />
+</div>
+<div class="col three caption">
+    Visualized model showing possible ending thrusts based on an applied voltage and a given starting thrust
+</div>
+
+<p>Operating a 5 kg UAV quickly required an accurate model of the propulsion system. A innovative method was created which allows for accurate predicions to be made in an open loop manner using presolved discretized models. <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#dynamic-thrust-model" target="_blank">Technical Postmortem Section</a></p>
+
+<p>This model was discussed in the <em>6 Degree of Freedom UAV Thrust Model Summary</em> available on the <a href="/publications/">publications page</a>.</p>
+
+<h3 id="motion-profile-controller">Motion Profile Controller</h3>
+<div class="img_row">
+    <img class="col three left" src="/assets/img/iarc-SingleAxisController.png" alt="" title="Controller for a single axis" />
+</div>
+<div class="col three caption">
+    Controller Design Diagram
+</div>
+<p>In order to support a responsive interactions with moving targets, a custom linear controller was created. Due to the accuracy of the thrust model used, it was possible to specify acceleration setpoints directly. This was crucial for accurately and repeatedly interacting with the moving targets. <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#motion-profile-controller" target="_blank">Technical Postmortem Section</a></p>
+
+<div class="img_row">
+    <img class="col three left" src="/assets/img/iarc-target.gif" alt="" title="2018 Drone Target Touch" />
+</div>
+<div class="col three caption">
+    The 2018 Competition Drone autonomously making contact with a moving target.
+</div>
+
+<h3 id="flight-controller">Flight Controller</h3>
+<p>A cleanflight based flight controller was used. This was contrary to the conventional wisdom of using a Pixhawk with either PX4 or Ardupilot. However, this decision allowed us to use custom controller more suited to the IARC Mission 7. <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#flight-controller" target="_blank">Technical Postmortem Section</a>.</p>
+
+<h2 id="state-estimation">State Estimation</h2>
+<h3 id="texture-classification-for-boundary-detection">Texture Classification for Boundary Detection</h3>
+<div class="img_row">
+    <img class="col three left" src="/assets/img/arena-detector.gif" alt="" title="Texture Classification Demo" />
+</div>
+<div class="col three caption">
+    An early test of the texture classification system.
+</div>
+
+<p>In order to remain within arena boundaries, a method of detecting areas as outside of an arena was required. A texture classifier was created using Tensorflow for this purpose. <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#arena-boundary-detection" target="_blank">Technical Postmortem Section</a></p>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9l7DOeNJ3So" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</center>
+<p>The above video shows the UAV using the boundary detector to “bounce off walls” similar to an old-fahsioned screensaver.</p>
+
+<h3 id="optical-flow">Optical Flow</h3>
+<div class="img_row">
+    <img class="col three left" src="/assets/img/optical-flow.gif" alt="" title="Optical Flow Demonstration" />
+</div>
+<div class="col three caption">
+    (Left) Visualization of the optical flow technique used to estimate the drones velocity<br />
+    (Right) Visualization of statistical filter used to filter flow vectors
+</div>
+<p>A custom velocity estimation system was implemented using OpenCV’s implementation of Lucas-Kanade optical flow with pyramids. It was coupled with a statistical filter  which detected outliers based on the variance of the two dimensional distribution of the flow vectors. The technique allowed vectors to be ignored that were known to be on the top of moving targets.</p>
+
+<p>The flow estimated was combined with other sensors in an EKF (<a href="http://wiki.ros.org/robot_localization">robot localization</a>), a few minutes a flying would only result in approximately one meter of drift. Velocity estimates were within accurate to within 5 cm/s. <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#optical-flow">Technical Postmortem Section</a></p>
+
+<h2 id="electronics">Electronics</h2>
+<h3 id="30v-30a-eight-channel-dc-circuit-breaker-safety-system-for-6dof-uav">30V 30A eight channel DC Circuit Breaker Safety System for 6DOF UAV</h3>
+<div class="img_row">
+    <img class="col three left" src="/assets/img/30A-eight-channel-breaker.png" alt="" title="30V 30A eight channel DC Circuit Breaker" />
+</div>
+<div class="col three caption">
+    An eight channel 30V, 30A circuit breaker designed for emergency power removal
+</div>
+<p>A 7 kg 6 DOF UAV was designed and built, however software did not have time to make the transition to the new airframe for the 2018 competition. The above circuit breaker was designed and built for this UAV. <a href="http://pittras.org/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html#6-degree-of-freedom-uav">Technical Postmortem Section</a></p>
+
+  </article>
+
+  
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+<center>
+  <div class="wrapper">
+    &copy; Copyright 2020 Levi Burner.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+    
+  </div>
+</center>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-44950659-2', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
