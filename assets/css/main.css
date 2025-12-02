@@ -89,7 +89,7 @@ h6, .h6 { font-size: 0.75rem; }
 
 .list-reset { list-style: none; padding-left: 0; }
 
-.button-blue { color: white; background-color: #B509AC; border-radius: 3px; transition-duration: .1s; transition-timing-function: ease-out; transition-property: box-shadow, background-color; }
+.button-blue { color: white; background-color: #3B82F6; border-radius: 3px; transition-duration: .1s; transition-timing-function: ease-out; transition-property: box-shadow, background-color; }
 
 .button-blue:hover { opacity: .875; }
 
@@ -123,7 +123,7 @@ h6, .h6 { font-size: 0.75rem; }
 
 .highlight .sr { color: #009f06; }
 
-.highlight .ss { color: #B509AC; }
+.highlight .ss { color: #3B82F6; }
 
 .hljs-built_in { color: #00369f; }
 
@@ -140,7 +140,7 @@ h6, .h6 { font-size: 0.75rem; }
 /* Basscss Color Base */
 body { color: #333; background-color: white; }
 
-a { color: #B509AC; text-decoration: none; }
+a { color: #3B82F6; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
@@ -349,7 +349,7 @@ body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: 
   .site-nav .page-link:not(:last-child) { margin-right: 0; } }
 
 .header-bar { border-bottom: 1px solid #ccc; font-size: 20px; display: block; opacity: 0.75; width: 100%; text-align: center; padding-top: 25px; padding-bottom: 4rem; line-height: 3em; z-index: 25; }
-.header-bar h1 { color: #B509AC; font-size: 75px; }
+.header-bar h1 { color: #3B82F6; font-size: 75px; }
 .header-bar h2 { font-size: 25px; }
 
 .site { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; min-height: 100vh; }
@@ -358,7 +358,7 @@ body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: 
 
 footer { background-color: #424242; border-top: thin solid #424242; color: #ccc; font-size: 0.75rem; font-weight: 300; padding: 0.5rem; position: fixed; left: 0px; bottom: 0px; width: 100%; }
 footer a { color: #fff; }
-footer a:hover { color: #B509AC; }
+footer a:hover { color: #3B82F6; }
 
 .page-content { padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */ }
 
@@ -416,7 +416,7 @@ footer a:hover { color: #B509AC; }
 
 .pagination .pagination-meta { overflow: hidden; }
 
-.pagination a:hover, .pagination a:focus { background: white; color: #B509AC; }
+.pagination a:hover, .pagination a:focus { background: white; color: #3B82F6; }
 
 .pagination a:active { background: #f7f7f7; }
 
@@ -426,7 +426,31 @@ footer a:hover { color: #B509AC; }
 
 .button-disabled:hover, .button-disabled:active, .button-disabled:focus { cursor: not-allowed; background-color: #999; }
 
-.publications h2 { color: #B509AC; font-size: 32px; margin-bottom: 30px; text-align: center; }
+.publications h2 { color: #3B82F6; font-size: 32px; margin-bottom: 30px; text-align: center; }
+
+/* Ensure links inside publications text use the theme accent color */
+.publications .pub-content a { color: #3B82F6; text-decoration: none; }
+.publications .pub-content a:hover { text-decoration: underline; }
+
+/* Widen the publications profile column specifically (don't change global .one) */
+.publications .profile.one { width: 45%; }
+.publications .profile.one img { display: block; width: 100%; height: auto; margin: 0; box-shadow: none; border: none; }
+
+/* Text column for publications sits to the right of the image */
+.publications .pub-content { width: 50%; box-sizing: border-box; }
+.publications .pub-row { display: flex; align-items: center; gap: 1rem; }
+
+/* Expand publications horizontally to use the full content area (break out of .wrapper)
+   This widens both image and the text beside it without changing global .wrapper. */
+.publications { width: calc(100% + 600px); margin-left: -300px; margin-right: -300px; box-sizing: border-box; }
+
+/* On small screens, revert to in-flow behavior */
+@media screen and (max-width: 600px) {
+  .publications { width: auto; margin-left: 0; margin-right: 0; }
+  .publications .profile.one { width: 100%; }
+  .publications .profile.one img { float: none; width: 100%; margin-right: 0; margin-bottom: 1rem; }
+  .publications .pub-content { float: none; width: 100%; }
+}
 
 .year { border-top: 1px solid #ccc; color: #ccc; margin: 0 -3em -2.5ex -2em; padding-top: 1ex; text-align: right; }
 
@@ -434,7 +458,7 @@ footer a:hover { color: #B509AC; }
 .bibliography li { margin: 10px 0; position: relative; }
 .bibliography li span { display: block; }
 .bibliography li .title { font-weight: bolder; }
-.bibliography li .author a { border-bottom: 1px dashed #B509AC; }
+.bibliography li .author a { border-bottom: 1px dashed #3B82F6; }
 .bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
 .bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
 .bibliography li a.abstract, .bibliography li a.bibtex { cursor: pointer; }
@@ -446,7 +470,7 @@ footer a:hover { color: #B509AC; }
 .bibliography li span.abstract.hidden.open { border-color: #828282; }
 .bibliography abbr { position: absolute; left: -7em; }
 
-.star { color: #B509AC; font-style: normal; }
+.star { color: #3B82F6; font-style: normal; }
 
 blockquote { border-left: 5px solid #7a7a7a; font-style: italic; margin-left: 0.5rem; padding: 0.5rem; }
 
@@ -478,7 +502,7 @@ figure > img { display: block; }
 
 figcaption { font-size: 0.875rem; }
 
-.blankbox { background: #B509AC; }
+.blankbox { background: #3B82F6; }
 
 .img_row { width: 100%; overflow: hidden; box-sizing: border-box; }
 
@@ -497,13 +521,13 @@ figcaption { font-size: 0.875rem; }
 .gist .lines { width: 100%; }
 
 a { color: #666; text-decoration: none; }
-a:hover { color: #B509AC; text-decoration: none; }
+a:hover { color: #3B82F6; text-decoration: none; }
 
-article a, .news a { color: #B509AC; font-weight: 100; }
+article a, .news a { color: #3B82F6; font-weight: 100; }
 article a:hover, .news a:hover { text-decoration: underline; }
 
 .social a { color: #666; }
-.social a:hover { color: #B509AC; }
+.social a:hover { color: #3B82F6; }
 
 .measure { margin: 0 auto; max-width: 42rem; }
 
@@ -538,5 +562,15 @@ small, .small { font-size: 0.707rem; }
 sup { position: relative; vertical-align: middle; top: -0.9ex; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 100; }
+
+/* Ensure bold and italic elements have proper styling */
+b, strong { font-weight: 600 !important; }
+em { font-style: italic !important; }
+/* Don't italicize <i> tags (they're used for icons) */
+i { font-style: normal !important; }
+
+/* Style links in the invited talks section */
+.social p a { color: #3B82F6; text-decoration: none; }
+.social p a:hover { text-decoration: underline; }
 
 div.equation { margin: 0.5rem 0; }
